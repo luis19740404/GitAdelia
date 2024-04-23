@@ -1,0 +1,16 @@
+{
+  "type" : "PGM",
+  "name" : "TSTWAD",
+  "description" : "Test WEB Adelia",
+  "creationDate" : "2021-07-07 14:21:46",
+  "updateDate" : "2021-07-07 14:27:02",
+  "visibility" : "PUBLIC",
+  "ibmName" : "TESTWEBADELIA",
+  "programType" : "I",
+  "sourceType" : "WADELIA",
+  "layoutCode" : "TSTWAD",
+  "level2GenType" : 1,
+  "implicitMR" : true,
+  "level2DatabaseGenMode" : "SQL",
+  "manageHistoryButtons" : "N"
+}

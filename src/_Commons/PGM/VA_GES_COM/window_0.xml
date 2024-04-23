@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window description="" help="" id="0" name="FEN_ENTCOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.hardis.fr/xml window.xsd">
+    <properties>
+        <property id="-46" intValue="96"/>
+        <property id="-45" intValue="96"/>
+        <property id="-19" intValue="1048584"/>
+        <property id="-4" intValue="316"/>
+        <property id="-3" intValue="343"/>
+        <property id="-2" intValue="91"/>
+        <property id="-1" intValue="24"/>
+        <property id="3"/>
+        <property binaryType="icon" id="10" mimeType="image/png">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAhklEQVR42u3X0QkAMQgDUEd3NDfr4QSnJimlNOBfC+/DBmr2cmAWYTAAEgYCBkQEhKAAEAQMyCAICgBBsJZw/DqWIhQAgsu77r5gwBRBBUwQdEAXIQF0EDJAFSEFVBBywB/irh2YdAINMC0mCgBpRgmgg7gXsHUJH2AbQDVVgOVB1Rz3Ef0AlC7rhkguzXMAAAAASUVORK5CYII=</property>
+        <property binaryType="icon" id="11" mimeType="image/png">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR42mNgoBL4TyTGbQAhQMgQogw4cOAATkMwFOMyAJchWJ2LwwvEG4DLayQZgMs7JBmAQ540A5DV0McLuGKDKAOIjFI6GUB0OiADgwEAJcbq6n1KPVAAAAAASUVORK5CYII=</property>
+        <property id="22"/>
+        <property id="23"/>
+    </properties>
+    <controls>
+        <control associatedVariable="" className="LISTE" dll="CONTAINR" help="" kinematic="0" name="LST_ENTCOM">
+            <properties>
+                <property id="-4" intValue="203"/>
+                <property id="-3" intValue="275"/>
+                <property id="-2" intValue="26"/>
+                <property id="-1" intValue="23"/>
+                <property id="6" stringValue="ZENUM_COMMANDE -6 3 5 0 # ZELIB_OBJ_CDE -6 2 30 -1"/>
+            </properties>
+            <menu>
+                <item key1="0" key2="0" name="MNU_CREER" state="4112" text="Création" type="1"/>
+                <item key1="0" key2="0" name="MNU_MODIF" state="4112" text="Modification" type="1"/>
+                <item key1="0" key2="0" name="MNU_SUPPRESSION" state="4112" text="Supprimer" type="1"/>
+            </menu>
+            <controls>
+                <control associatedVariable="ZENUM_COMMANDE" className="COLONNE" dll="COLONNE" help="" kinematic="1" logicalProperty="ENTCDE.NUM_COMMANDE" name="ZENUM_COMMANDE">
+                    <properties>
+                        <property id="-13" intValue="1"/>
+                        <property id="-12" intValue="3"/>
+                        <property id="-11" intValue="14"/>
+                        <property id="-9" stringValue="3 5 0"/>
+                        <property id="-8" stringValue="N° Cde"/>
+                        <property id="-3" intValue="49"/>
+                        <property id="11" stringValue="ZENUM_COMMANDE 9 3 5 0"/>
+                        <property id="20" stringValue="Microsoft Sans Serif;8;1;1"/>
+                    </properties>
+                </control>
+                <control associatedVariable="ZELIB_OBJ_CDE" className="COLONNE" dll="COLONNE" help="" kinematic="1" logicalProperty="ENTCDE.LIB_OBJ_CDE" name="ZELIB_OBJ_CDE">
+                    <properties>
+                        <property id="-13" intValue="1"/>
+                        <property id="-9" stringValue="2 30 -1"/>
+                        <property id="-8" stringValue="Objet"/>
+                        <property id="-3" intValue="224"/>
+                        <property id="11" stringValue="ZELIB_OBJ_CDE 9 2 30 -1"/>
+                        <property id="20" stringValue="Microsoft Sans Serif;8;1;1"/>
+                    </properties>
+                </control>
+            </controls>
+        </control>
+        <control associatedVariable="" className="BOUTON" dll="BOUTON" help="" kinematic="0" name="BTN_QUITTER">
+            <properties>
+                <property id="-8" stringValue="Quitter"/>
+                <property id="-4" intValue="23"/>
+                <property id="-3" intValue="75"/>
+                <property id="-2" intValue="244"/>
+                <property id="-1" intValue="229"/>
+                <property id="25" intValue="1"/>
+            </properties>
+        </control>
+        <control associatedVariable="" className="TEXTE" dll="TSTATIC" help="" kinematic="0" name="TXT_">
+            <properties>
+                <property id="-8" stringValue="Texte en plus "/>
+                <property id="-4" intValue="13"/>
+                <property id="-3" intValue="94"/>
+                <property id="-2" intValue="4"/>
+                <property id="-1" intValue="220"/>
+            </properties>
+        </control>
+        <control associatedVariable="" className="TEXTE" dll="TSTATIC" help="" kinematic="0" name="TXT_0">
+            <properties>
+                <property id="-8" stringValue="Texte en plus 2"/>
+                <property id="-4" intValue="13"/>
+                <property id="-3" intValue="94"/>
+                <property id="-2" intValue="6"/>
+                <property id="-1" intValue="20"/>
+            </properties>
+        </control>
+    </controls>
+</window>

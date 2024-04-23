@@ -1,0 +1,4 @@
+*ROW_METADATA(ADELIA                 )DEBUT_RGG
+*ROW_METADATA(ADELIA                 )   * Calcul du Montant ligne de commande
+*ROW_METADATA(ADELIA                 )   * à partir de la quantité commandée et du prix unitaire
+*ROW_METADATA(ADELIA                 )FIN_RGG

@@ -1,0 +1,44 @@
+*ROW_METADATA(ADELIA                 )DEBUT_PGM
+*ROW_METADATA(ADELIA         20200820)   DEBUT_DECL
+*ROW_METADATA(ADELIA         20200820)      sw_configurer *SERVICE '@Path' '/clients'
+*ROW_METADATA(ADELIA         20230831)      alpha(200) wmsgtrace
+*ROW_METADATA(ADELIA         20230831)      
+*ROW_METADATA(ADELIA         20230831)        * vcvllll
+*ROW_METADATA(ADELIA         20230831)        * ddd
+*ROW_METADATA(ADELIA         20230831)      
+*ROW_METADATA(ADELIA         20200820)   FIN_DECL
+*ROW_METADATA(ADELIA         20200820)   DEBUT_INIT
+*ROW_METADATA(ADELIA         20200820)      
+*ROW_METADATA(ADELIA         20200820)   FIN_INIT
+*ROW_METADATA(ADELIA         20200820)   DEBUT_PROCEDURE CLIENT *PUBLIC
+*ROW_METADATA(ADELIA         20200820)      DEBUT_DECL
+*ROW_METADATA(ADELIA         20200820)         sw_configurer *OPERATION '@GET' *BLANK
+*ROW_METADATA(ADELIA         20200820)         sw_configurer *OPERATION '@Produces' '{"application/xml","application/json"}'
+*ROW_METADATA(ADELIA         20200820)         *
+*ROW_METADATA(ADELIA         20200820)         num_bin_4 wcodehttp
+*ROW_METADATA(ADELIA         20200820)         liste lstcli ccod_client cnom_client ccod_pos_cli cnum_tel_cli
+*ROW_METADATA(ADELIA         20200820)         alpha(5) wpos
+*ROW_METADATA(ADELIA         20200820)         alpha(50) wsortie
+*ROW_METADATA(ADELIA         20200820)         *
+*ROW_METADATA(ADELIA         20200820)         param wpos,i[query:optional] lstcli,o[content] wcodehttp,o[httpstatus]
+*ROW_METADATA(ADELIA         20200820)         *  wsortie,o[content] 
+*ROW_METADATA(ADELIA         20200820)      FIN_DECL
+*ROW_METADATA(ADELIA         20200820)      *
+*ROW_METADATA(ADELIA         20200820)      wcodehttp = 200
+*ROW_METADATA(ADELIA         20200820)      wsortie = 'OK'
+*ROW_METADATA(ADELIA         20200820)      *
+*ROW_METADATA(ADELIA                 )      DEBUT_SRV ADELIA
+*ROW_METADATA(ADELIA         20200820)         charger_sql_lst lstcli client *cond(cnom_client >= :wpos) *tri(cnom_client)
+*ROW_METADATA(ADELIA                 )      FIN_SRV
+*ROW_METADATA(ADELIA         20200820)      si *code_retour > 10000
+*ROW_METADATA(ADELIA         20200820)         wsortie = 'middleware : ' // *code_retour
+*ROW_METADATA(ADELIA         20200820)      fin
+*ROW_METADATA(ADELIA         20200820)      si *sqlcode <> 0 
+*ROW_METADATA(ADELIA         20200820)         wsortie = '*sqlcode : ' // *sqlcode
+*ROW_METADATA(ADELIA         20200820)      fin
+*ROW_METADATA(ADELIA         20200820)      *
+*ROW_METADATA(ADELIA         20200820)      * Suppression de la connexion middleware Adelia
+*ROW_METADATA(ADELIA         20200820)      APPELER_DLL 'VaToolBx' 'VaToolBxCloseConnection' '*ALL'
+*ROW_METADATA(ADELIA         20200820)      *
+*ROW_METADATA(ADELIA         20200820)   FIN_PROCEDURE
+*ROW_METADATA(ADELIA                 )FIN_PGM

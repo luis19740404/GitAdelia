@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window description="Liste des employés" help="" id="0" name="FEN_PERSO" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.hardis.fr/xml window.xsd">
+    <properties>
+        <property id="-46" intValue="96"/>
+        <property id="-45" intValue="96"/>
+        <property binaryType="bin" id="-20">AAABAAIAICAQAAAAAADoAgAAJgAAABAQEAAAAAAAKAEAAA4DAAAoAAAAIAAAAEAAAAABAAQAAAAAAIACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAICAgADAwMAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC7u7u7AAAAAAAAAAAAAAu7u7u7u7uwAAAAAAAAAAC7u7u7u7u7uwAAAAAAAAC7u7u7u7u7u7u7AAAAAAALu7u7u7u7u7u7u7AAAAAAu7u7u7AAAAC7u7u7AAAAALu7u7ALu7u7ALu7uwAAAAu7u7sAu7u7u7ALu7uwAAC7u7uwC7u7u7u7ALu7uwAAu7u7sLu7u7u7u7C7u7sAALu7uwu7u7u7u7u7C7u7AAu7u7sLu7u7u7u7uwu7u7ALu7u7C7u7u7u7u7sLu7uwC7u7u7u7u7u7u7u7u7u7sAu7u7u7u7u7u7u7u7u7u7ALu7u7u7u7u7u7u7u7u7uwC7u7u7uwC7u7sAu7u7u7sAu7u7u7AAC7uwAAu7u7u7ALu7u7uwAAu7sAALu7u7uwALu7u7sAALu7AAC7u7u7AAC7u7u7AAC7uwAAu7u7uwAAu7u7uwAAu7sAALu7u7sAAAu7u7uwC7u7sAu7u7uwAAAAu7u7u7u7u7u7u7u7AAAAALu7u7u7u7u7u7u7uwAAAAALu7u7u7u7u7u7u7AAAAAAALu7u7u7u7u7u7sAAAAAAAAAu7u7u7u7u7sAAAAAAAAAAAu7u7u7u7uwAAAAAAAAAAAAALu7u7sAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//AP//+AAf/+AAB//AAAP/gAAB/wAAAP4AAAB8AAAAPAAAADgAAAAYAAAAGAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAYAAAAHAAAADwAAAA+AAAAfwAAAP+AAAH/wAAD/+AAB//4AB///wD/8oAAAAEAAAACAAAAABAAQAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAICAgADAwMAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAAAAALu7uwAAAAC7u7u7uwAAC7sAAAO7sAALsAu7sDuwALuwu7u7C7sAu7C7u7sLuwC7u7u7u7u7ALu7ALsAu7sAu7sAuwC7uwC7uwC7ALu7AAu7ALsAu7AAC7u7u7u7sAAAu7u7u7sAAAAAu7u7AAAAAAAAAAAAAA+B8AAOAHAADAAwAAhAEAAIgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAAgAEAAMADAADgBwAA+B8AAA==</property>
+        <property id="-19" intValue="1048584"/>
+        <property id="-4" intValue="600"/>
+        <property id="-3" intValue="800"/>
+        <property id="-2" intValue="87"/>
+        <property id="-1" intValue="47"/>
+        <property id="3" stringValue="Liste des employés"/>
+        <property binaryType="icon" id="10" mimeType="image/png">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAnElEQVR42u3XSw6AIAwE0N7/0nVn3OBMfzhGSVhJMo9EoDWLDwdzZJwB7vezG0OFEpj94VVEOXgBeSY8ghgLZxC+EeCp3SNk8Kjmwlch6DtCfBsQ/XlaAFfEOwCdpyANmLqUfgBcVA2RBxhaNAEI3YRZBLt7ChBFkHeGjSAy4VRB0rEGFampd6HyDMsVpRJluURjItGaSTSn4+35AeVCJksoWQhiAAAAAElFTkSuQmCC</property>
+        <property binaryType="icon" id="11" mimeType="image/png">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAV0lEQVR42mNgwA7+48AEAVjh///YMSGDcGrEYRB5mnEZgtWpuPjoBuD0Kz4DkA0ZhAaQGpAYgvg00MQABjT/4gyXhgbi0wFGfkDWTHFqxJsfKMlMZGVnAJq82jZW3pjRAAAAAElFTkSuQmCC</property>
+        <property id="22" intValue="792"/>
+        <property id="23" intValue="566"/>
+        <property id="34" intValue="1"/>
+    </properties>
+    <controls>
+        <control associatedVariable="" className="TEXTE" dll="TSTATIC" help="" kinematic="0" name="TXT_">
+            <properties>
+                <property id="-48" intValue="1"/>
+                <property id="-21" stringValue="MS Sans Serif;8;256;1"/>
+                <property id="-8" stringValue="A partir de "/>
+                <property id="-4" intValue="13"/>
+                <property id="-3" intValue="78"/>
+                <property id="-2" intValue="48"/>
+                <property id="-1" intValue="329"/>
+            </properties>
+        </control>
+        <control associatedVariable="ZZ_A_PARTIR_DE" className="CHAMP_DE_SAISIE" dll="ENTFIELD" help="" kinematic="0" logicalProperty="PERSONNEL.NOM_PERSONNE" name="ZZ_A_PARTIR_DE">
+            <properties>
+                <property id="-48" intValue="1"/>
+                <property id="-13" intValue="2"/>
+                <property id="-9" stringValue="2 30 -1"/>
+                <property id="-4" intValue="20"/>
+                <property id="-3" intValue="224"/>
+                <property id="-2" intValue="45"/>
+                <property id="-1" intValue="417"/>
+            </properties>
+        </control>
+        <control associatedVariable="" className="BOUTON" dll="BOUTON" help="" kinematic="0" name="BTN_REINIT">
+            <properties>
+                <property id="-48" intValue="1"/>
+                <property id="-39"/>
+                <property id="-16" intValue="1"/>
+                <property id="-8"/>
+                <property id="-4" intValue="23"/>
+                <property id="-3" intValue="28"/>
+                <property id="-2" intValue="44"/>
+                <property id="-1" intValue="655"/>
+            </properties>
+        </control>
+        <control associatedVariable="" className="LISTE" dll="CONTAINR" help="" kinematic="0" name="LST_PERSO">
+            <properties>
+                <property id="-48" intValue="4"/>
+                <property id="-4" intValue="416"/>
+                <property id="-3" intValue="676"/>
+                <property id="-2" intValue="81"/>
+                <property id="-1" intValue="63"/>
+                <property id="6" stringValue="ZZ_COD_MATRICUL -6 2 6 -1 # ZZ_NOM_PERSONNE -6 2 30 -1 # ZZ_LIB_VIL_PERS -6 2 30 -1 # ZZ_DAT_ENTREE -6 3 8 0 # COL_IMAGE -6 6 0 0 # ZZ_COD_SIT_FAMI -6 2 1 -1 # ZZ_COD_SEXE_PER -6 2 1 -1 # ZZ_MTT_SALAIRE -6 3 11 2 # ZZ_LIB_AD1_PERS -6 2 30 -1"/>
+                <property id="28" intValue="1"/>
+                <property binaryType="imagelist" id="34">
+                    <image mimeType="image/png" type="dib">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAB60lEQVR42r2W3UoCQRSA9w3qDbrsoqfqypvoBwITCboKCYKkIghU9KKCIigiK0ktQfwJ/IPchEK66QW8n5y1Gc+OMztnXDfhU2dm2fPNOWdWrTlCLBnDFxFRXesHVOAgJZy3wbJFGDoBeK1fJgS8ApPswUyDGwnQ4AyTbGHKORII6XfPSxAaQ8c/33UjJu7vCKzqBZgEvZbBBLA7VguEcennEuER8KaXvb6LKwlqgR1ccKcHhtcyoMDZ+6eSi+6Xg1LAaPexMVAg1bI5yWbXNU61bZLufPgXGMQtF1DgsNqUclRrkeNam5y8dVT9og/OT8CpGygQe62S3WJFCl3bK9XxAisL8w487RlA+o+MWyDyUCRb2QKJZEefzvfhHCX6+EK2cyUzAb7rczVQYP3miawp2LjNkc27Z5wADK6TmMmDSEw7Gy8tRl2oBHzjPAckN6NB4XdMKabKgkpAlJFJsPV+L48GnQGMBJ23m9ekK2ArxrZkDS0gk6BzjXKCrzfKSY57LjExzxGbDyMBx5V83IXsF1SD+vh5ScCGgqdFFtzjCOoFxB1jYMHFzlecCL0A3N20eBxJXAlY2k0DIJ6G+B4o3O87mAadeRMyES8MyoMvgawXxICBCZhmI1ABmIV/FwisBPA/ASToEvwCgz12NhqSDJMAAAAASUVORK5CYII=</image>
+                    <image mimeType="image/png" type="dib">iVBORw0KGgoAAAANSUhEUgAAACAAAAAdCAYAAADLnm6HAAABpklEQVR42r2X23HEIAxF6SDF0JN6Uk/qiSBAIIRtMDj5uLMTh+UePZBZ9xOCWxURBVYgHPRmH633xoGakjkU7YEsAwzmCQACgo9y2xB75iVywmzOn7vl2DTHGrk1F/F3jwHuzTl6NuG/x6ZkKEI4AxiirwY0qD8ZrS/OARbMKwT2GTgGGGv6DJAzIQCQAFYgntOvBN5dmurntFGGheghRcRGIm1un0m2pAwYP48A2DxtxmmNjzD1ZcuAfZZ7gVQZjgFaJNUU3LwfFvtgAtA2oQKgN747kjlrHwNwKmt67+ZB/D+iKd1OCQRCR5HLANnIx829T7LR5zVQpmHWwRwwAKAMpftMBrJgeRhNB5HOQj4NeDmAmrkvM8CHT96GqFJZT4TJCpXSJOPyIpqlfvk+0AHEmqOpezcTGAYgfH8jgtZ0UwBet3gX6AC0yZPuAKT2vOZVBlZMrS5fSqUXZM2fAtDFSQDw7Siqtf8GIKM5jeKb730G8NSI4QHgCmYJIF3LTGqdc0ntR4tkApYDeZ2BfD9sd0U2FhCtPwPoToH5lSSXWNuEM/0CHa0i7SVf1roAAAAASUVORK5CYII=</image>
+                    <image mimeType="image/png" type="dib">iVBORw0KGgoAAAANSUhEUgAAACAAAAAhCAYAAAC4JqlRAAADwUlEQVR42qWXW0gUYRTHT5gW9BA9FT5I0UNUYOSYUXnPNMkiqTUTFUV3tChvaWVJ+RCidDGp1K19KS8PYQgpxbamJCKpCz4V+hBJEFGUaQS9qKc5n36zs3NXH/7Ozs6M/9855/99jrAREVYrn0tAtew+u2rTcXcUTnTE4afnSfit9wROvUhh5x/bYmzBrNicjNEn4pfuVHbUkxLCCGTF5lSx2vDfUC7OvD3Djr/enMYfr9Pla0YQASeiKKKdtlOLf/dlBJh/f3VyyURcksA6QCDqjph2wAhCOXN15dxc+iHJp5BLBqH7pr1aCN1K1RDcXG/OVOHiNZ+hlN2gsdBnywwoIbj515dpAeZzIwWsem3lehD+sfCOWYaQIMyqt2vul6gJpWXiCcJ87j7b4tUrIQzNyXSyM549RBCz/Zm6iVcHzt8xn24geTH8dxgCqENDEHTuN7cOnl4GaAnz4JoCKOdOmwsBKMVmPzKCODgom9D3AMCkhuH68CzaOoTq4NHOpgZgEF4vYnt7AIRSoujEqCCQxufB94/26m7Llns9X+u6AD09iG43Yne3xnxhbEz+/LgoFD11u3S3Y8MAfu5KtgRgEDrm9P386Kh8XpW4DjsqtuJoS4Q9AAqK3m63OHutmV77I9f4c1AeG4JPS8JWDmC15mUIQWCaFyLkazfTtmFZTDC2lS0DgJI67XUEVK8HELgqlma/sIB/Z37igBDGzi8cCGIj6KrezgAs3wdEcKFL9P/xsLvjcYg5qfopYadsXhEXgk+KQ3GwMdzG+4BkzkUQ5jubtgvKTlxJWo+l0WvxYf5mfHcvHMdaLV5IlOaypHlyEDt7veh0smO9YxNePBiElQn+1pu+EemayxItAeQOOAtRzHEwgPLYYFY9b73hO6GRcQE0YybcxlNQhzlw394IpA6IeVnYXLAFa1I3WFZvCpAFdzEWylGQOkCyM38Sbbl9Dbuxp3YHDjXtQav/GUwBuLkhAN2rMBcEuncxN+oQLwuA2p8OtzAOKgwBZvuHMRsa2b352SI6oVWTHSMQSwB19XoAEx0ePArXWUaSoZrlhbKSBw+wEFoUQKIGwhbAYbhsCPBnYJgZHodajIZSjIQijIEy9kwKXMMMaAiAUS9pSwBqbTxcYsZH4Kqm+slODyZApQxHAKQoOIf74TwbHYc5C3fYmHg3bK8CB9TjISjBVKjRVE8A6hEpYQiEwyRCFeuIshu2ALjU1Y+7e1lXjAC4yHwfFDPRmI7BDcyFJpaNVQGYVW/UERLtKTQOHk4O8B/QiVPm39wDDgAAAABJRU5ErkJggg==</image>
+                    <image mimeType="image/png" type="dib">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADmklEQVR42r2W20tUURTGN/SPCL320kvQQy9RFASRED5EJPRQkFBUD4E5Zjje05yLlxy8jXcdJCNTsdKaoh4szZrxMt6vo6MTQRcIajXfPu7jnj1n1EnHh4/DnDPnfL/1rbX3OYz197O9VmICI1VR/x9v421B4gVArSURMoSIp7l6Lu4AQVuqYeVCuB43AEgYqLHvSwtECrKpevQXXOeKawKiWhgZtWDfAGQQkUBcAdxutz6E6tqXE9j1PgAjIZ/Pp0sGiLYCIqrfKUA0U1XHeyOXojCGDj1lXHjOjgDkPhoZqkAXB7SHC0Mhl8vFdbCD6ffpENuZyxMtbsTD5CMeagoyMq0xHQa9l0GRDqqXz+H+mCZaBhJVCYAcYlw4Jw8gft+eYZT0jtGxHhbWyi0BBIToodHSgvLoQJjUBHL/MkoLMN4epCC3bVsAsbupPRUyAoBkOKSC1iR/ZHSizwAgEHxJga99ROdHyWKx8GM0ieurwee0st5L/rUeanYVaWoroqa2QmpsKaT6pgKqqcunqtocDSA0H8mDLGKINYCQeawAMF4OdNPSaleEubOhgKqdeeSozqYKRxYHQAsufYgGgASCsQEsrjyjBX8nzS8/0Y0bmh+QszGfampzyVGVRWUVZiopz+AAqcvMcBlzgJX1FzzSWADmljpodvExTc+3c2MReWVNDlVUZlHpo0yyl90ne8k9yv4TvvZlcw6AOP2BnpgApuZcNDnroomZVr3XqLrckcmrtpWGZE/nMtq4dHMMuogzFoDxqWYam2yi0YlGXrGIWxhbbelUbDPxJQwjFUI3hxDlzEJHTADekLHH10CesTpubA1FbbFrphZrGpe8kQmICHMIUfpm23icMBibbgmrEGYjITPveD2/DlPoy6iThkdrubHFaqKH1lRd6oeJ2DkT3zK6MaF8kslmMNCr26hQNsR1mH4a2RSqLbbc1WVkfmWY0elXjM66GaWMKACejepgIiqEmahQNsT1IW91mFDxVuYZ3xhd82gAp0LvuKufFQBhwuM0qFA2UwEGPZsARuaYiczvWtVnXmtbMbbkMICwOA0qVAFgKksdOGGO2cBwmn9ofUf8AMCOuOtvwoR27ctHSDXHazfFy7i5+Sejm1OMzr1hdNIogf8BONzJSEgGOdKlvfOT3jO6M88o+7cGcGtaSwCv4wsDewCAqb48tCkMFgYNvUbc2PvNv7QPFByRAIbwaDfjS1F+1j8zYphZ0cYYvQAAAABJRU5ErkJggg==</image>
+                    <image mimeType="image/png" type="dib">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACR0lEQVR42sVXC7LDIAjMnbwTd+JO3MkXRBD8JWnzppmhaUyVZWHRHkQ5/9IO/gD4jR0HPQOQEp4G58R02lGMn3n8nwFQcDqzT4DcBEAXjlMxP8ZzXgJwHTnVakLEgZGvARwHLKNmh1bKWQwAHoG4AEDmzDsmdegc2/NpT9KxBSDoIaOLijhq75y67+edCoh7LGwBSH6xLAjgKA/RZ/ecbRwS3GJhCYDlxBNnEV4x0BejsIBPAUgEQ44n0fbv5gDgQwDWtHOMEsD0z79FVxszAKs0BADIg6gAUp0EbgGo9QCmCP5e6oMnqRTrXJVq+31jAbEHgA7EpvshQgDg78oCVHaUCbBgyBzPGdCXGNOg0fOiTLF0Pqym0mtNiUrUkh6srMka0Q/fDQD2LysLhXbEomscegAOQJQBZYmBQK0TDgx3KdAaKC9RAGhueUHTeG1OK2VYvZwLWRqUfu/HAwgvKwM8phVuLZiEbgEx6YpZ2/dRnXOhYmTWgRgYQGwmLKBVe1QDGpDQE4gG/fuc9xYYmFHE1InWm+yYWrXChKsNMgDJaA9BLYtwwoBavxt64yKbtWCRYd5GP2VgBUBkGE8/1O0D43khX9o1AGhVzRESNc1jHYMEw0FEpPgGAMzb49jqiCZnAngHACvhrnMpyGyMvAJAQWg/2DkWRdIgw68BsKz00h1Od8f+6utBJAlTWd5WQdmIFpfufBT6wPo/hHbGWwA0/36DUVm2Pt/OCasUzdO2ASDO0iAtrQONWJ0/cRytApA/IL8wyn97WRjb4U9mgwAAAABJRU5ErkJggg==</image>
+                    <image mimeType="image/png" type="dib">iVBORw0KGgoAAAANSUhEUgAAACEAAAAeCAYAAACiyHcXAAABUklEQVR42sWWgRHDIAhFs0GHyU7u5E7uZPMTSZBDg1auvaPWNCdP+CjbJ+dt1I5Plrbve55Z61zvV+fSXCGwUwvETFSWRmE2Ii4AoyBDECGE2yg9GDGPMeZYRsxHQIaikFLMx9erpQPEDcICQOYYCTsEpWs5BHL+VwhaFPlODR3w/5wgtkpwcEJC5ZCknbOKjCAmiFQcccFxh5HB4TdFJ5ZSXQNRnGh57+kieEDwXVrKdlkkpDg5hOWsQCqXX2AUjapifgCYhAjmc8KtqaGUaLemFKUfhHCmaYOE7Nre8SpRS9O3s3rSkDogLp0VnZjwC2udEXR3LO+sqlu0QEgYLthlEC3H2vyKQnmQrkhIwCGI3q41iBrkuSv4u5bmV1F+bloP7irfcD9DerT3tEvN5PwNBM7JehCalm4IK0ALBF0fADC+RU2FGQXQnOD8kNEY2dwXAtSQ8qjuvuEAAAAASUVORK5CYII=</image>
+                </property>
+                <property id="37" intValue="1"/>
+            </properties>
+            <menu>
+                <item key1="0" key2="0" name="MNU_CREER" state="4112" text="Créer" type="1"/>
+                <item key1="0" key2="0" name="MNU_MODIFIER" state="69648" text="Modifier" type="1"/>
+                <item key1="0" key2="0" name="ID_EVT3" state="4112" text="Séparateur" type="2"/>
+                <item key1="0" key2="0" name="MNU_SUPPRIMER" state="4112" text="Supprimer" type="1"/>
+            </menu>
+            <controls>
+                <control associatedVariable="ZZ_COD_MATRICUL" className="COLONNE" dll="COLONNE" help="" kinematic="1" logicalProperty="PERSONNEL.COD_MATRICULE" name="ZZ_COD_MATRICUL">
+                    <properties>
+                        <property id="-13" intValue="1"/>
+                        <property id="-12" intValue="1"/>
+                        <property id="-9" stringValue="2 6 -1"/>
+                        <property id="-8" stringValue="Code"/>
+                        <property id="-3" intValue="56"/>
+                        <property id="11" stringValue="ZZ_COD_MATRICUL 9 2 6 -1"/>
+                        <property id="20" stringValue="MS Sans Serif;8;1;0"/>
+                        <property id="42"/>
+                    </properties>
+                </control>
+                <control associatedVariable="ZZ_NOM_PERSONNE" className="COLONNE" dll="COLONNE" help="" kinematic="1" logicalProperty="PERSONNEL.NOM_PERSONNE" name="ZZ_NOM_PERSONNE">
+                    <properties>
+                        <property id="-13" intValue="1"/>
+                        <property id="-9" stringValue="2 30 -1"/>
+                        <property id="-8" stringValue="Nom"/>
+                        <property id="-3" intValue="224"/>
+                        <property id="11" stringValue="ZZ_NOM_PERSONNE 9 2 30 -1"/>
+                        <property id="20" stringValue="MS Sans Serif;8;1;0"/>
+                        <property id="42"/>
+                    </properties>
+                </control>
+                <control associatedVariable="ZZ_LIB_VIL_PERS" className="COLONNE" dll="COLONNE" help="" kinematic="1" logicalProperty="PERSONNEL.LIB_VIL_PERS" name="ZZ_LIB_VIL_PERS">
+                    <properties>
+                        <property id="-13" intValue="1"/>
+                        <property id="-9" stringValue="2 30 -1"/>
+                        <property id="-8" stringValue="Ville"/>
+                        <property id="-3" intValue="224"/>
+                        <property id="11" stringValue="ZZ_LIB_VIL_PERS 9 2 30 -1"/>
+                        <property id="20" stringValue="MS Sans Serif;8;1;0"/>
+                        <property id="42"/>
+                    </properties>
+                </control>
+                <control associatedVariable="ZZ_DAT_ENTREE" className="COLONNE" dll="COLONNE" help="" kinematic="1" logicalProperty="PERSONNEL.DAT_ENTREE" name="ZZ_DAT_ENTREE">
+                    <properties>
+                        <property id="-13" intValue="1"/>
+                        <property id="-12" intValue="3"/>
+                        <property id="-10" stringValue="  /  /    "/>
+                        <property id="-9" stringValue="3 8 0"/>
+                        <property id="-8" stringValue="Date entrée"/>
+                        <property id="-3" intValue="84"/>
+                        <property id="11" stringValue="ZZ_DAT_ENTREE 9 3 8 0"/>
+                        <property id="20" stringValue="MS Sans Serif;8;1;0"/>
+                        <property id="42"/>
+                    </properties>
+                </control>
+                <control associatedVariable="" className="COLONNE" dll="COLONNE" help="" kinematic="0" name="COL_IMAGE">
+                    <properties>
+                        <property id="-13" intValue="1"/>
+                        <property id="-9" stringValue="6 0 0"/>
+                        <property id="-8" stringValue="Logo"/>
+                        <property id="-3" intValue="75"/>
+                        <property id="11" stringValue="COL_IMAGE 9 6 0 0"/>
+                        <property id="12" intValue="3"/>
+                        <property id="20" stringValue="MS Sans Serif;8;1;0"/>
+                        <property id="42"/>
+                    </properties>
+                </control>
+                <control associatedVariable="ZZ_COD_SIT_FAMI" className="COLONNE" dll="COLONNE" help="" kinematic="1" logicalProperty="PERSONNEL.COD_SIT_FAMIL" name="ZZ_COD_SIT_FAMI">
+                    <properties>
+                        <property id="-39"/>
+                        <property id="-13" intValue="1"/>
+                        <property id="-12" intValue="1"/>
+                        <property id="-9" stringValue="2 1 -1"/>
+                        <property id="-8" stringValue="Sit."/>
+                        <property id="-3" intValue="26"/>
+                        <property id="11" stringValue="ZZ_COD_SIT_FAMI 9 2 1 -1"/>
+                        <property id="20" stringValue="MS Sans Serif;8;1;0"/>
+                        <property id="42"/>
+                    </properties>
+                </control>
+                <control associatedVariable="ZZ_COD_SEXE_PER" className="COLONNE" dll="COLONNE" help="" kinematic="1" logicalProperty="PERSONNEL.COD_SEXE_PERS" name="ZZ_COD_SEXE_PER">
+                    <properties>
+                        <property id="-39"/>
+                        <property id="-13" intValue="1"/>
+                        <property id="-12" intValue="1"/>
+                        <property id="-9" stringValue="2 1 -1"/>
+                        <property id="-8" stringValue="Code"/>
+                        <property id="-3" intValue="38"/>
+                        <property id="11" stringValue="ZZ_COD_SEXE_PER 9 2 1 -1"/>
+                        <property id="20" stringValue="MS Sans Serif;8;1;0"/>
+                        <property id="42"/>
+                    </properties>
+                </control>
+                <control associatedVariable="ZZ_MTT_SALAIRE" className="COLONNE" dll="COLONNE" help="" kinematic="1" logicalProperty="PERSONNEL.MTT_SALAIRE" name="ZZ_MTT_SALAIRE">
+                    <properties>
+                        <property id="-13" intValue="1"/>
+                        <property id="-12" intValue="4"/>
+                        <property id="-11" intValue="9"/>
+                        <property id="-9" stringValue="3 11 2"/>
+                        <property id="-8" stringValue="Salaire"/>
+                        <property id="-3" intValue="98"/>
+                        <property id="11" stringValue="ZZ_MTT_SALAIRE 9 3 11 2"/>
+                        <property id="20" stringValue="Microsoft Sans Serif;8;1;1"/>
+                        <property id="42"/>
+                    </properties>
+                </control>
+                <control associatedVariable="ZZ_LIB_AD1_PERS" className="COLONNE" dll="COLONNE" help="" kinematic="1" logicalProperty="PERSONNEL.LIB_AD1_PERS" name="ZZ_LIB_AD1_PERS">
+                    <properties>
+                        <property id="-13" intValue="1"/>
+                        <property id="-9" stringValue="2 30 -1"/>
+                        <property id="-8" stringValue="Adresse"/>
+                        <property id="-3" intValue="224"/>
+                        <property id="11" stringValue="ZZ_LIB_AD1_PERS 9 2 30 -1"/>
+                        <property id="20" stringValue="Microsoft Sans Serif;8;1;1"/>
+                        <property id="42"/>
+                    </properties>
+                </control>
+            </controls>
+        </control>
+        <control associatedVariable="" className="BOUTON" dll="BOUTON" help="" kinematic="0" name="BTN_SECTEURS">
+            <properties>
+                <property id="-48" intValue="1"/>
+                <property id="-8" stringValue="Secteurs"/>
+                <property id="-4" intValue="23"/>
+                <property id="-3" intValue="75"/>
+                <property id="-2" intValue="520"/>
+                <property id="-1" intValue="535"/>
+            </properties>
+        </control>
+        <control associatedVariable="" className="BOUTON" dll="BOUTON" help="" kinematic="0" name="BTN_FERMER">
+            <properties>
+                <property id="-48" intValue="1"/>
+                <property id="-8" stringValue="&amp;Fermer"/>
+                <property id="-4" intValue="23"/>
+                <property id="-3" intValue="75"/>
+                <property id="-2" intValue="520"/>
+                <property id="-1" intValue="620"/>
+            </properties>
+        </control>
+    </controls>
+</window>

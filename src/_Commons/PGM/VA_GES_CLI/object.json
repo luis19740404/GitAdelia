@@ -3,7 +3,7 @@
   "name" : "VA_GES_CLI",
   "description" : "VA Gestion client",
   "creationDate" : "2000-02-01 11:11:58",
-  "updateDate" : "2024-06-11 08:29:07",
+  "updateDate" : "2024-06-11 09:47:11",
   "visibility" : "PUBLIC",
   "ibmName" : "VGSCLI",
   "programType" : "I",

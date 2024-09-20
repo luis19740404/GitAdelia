@@ -3,7 +3,7 @@
   "name" : "VA_GES_COM",
   "description" : "VA Gestion commande",
   "creationDate" : "2000-02-01 11:12:00",
-  "updateDate" : "2024-06-11 11:44:37",
+  "updateDate" : "2024-09-20 14:48:44",
   "visibility" : "PUBLIC",
   "ibmName" : "VGSCOM",
   "programType" : "I",
